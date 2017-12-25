@@ -32,6 +32,7 @@ document.onkeyup = function(event) {
         winsText.textContent = wins;
         computerGuess = (letters[Math.floor(Math.random() * letters.length)]);
         console.log("computer guess: " + computerGuess);
+        left = 10
         userGuesses = [];
     } else {
         console.log("You guessed wrong");
